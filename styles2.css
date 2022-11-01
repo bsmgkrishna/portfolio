@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -65,7 +65,7 @@ li{
     box-sizing: border-box;
     display: flex; 
     justify-content: space-evenly;
-    background-image: linear-gradient(white,black);
+    background-image: linear-gradient(45deg,red,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     float:center;
@@ -90,7 +90,26 @@ li{
 .logos img:hover{
     transform: translateY(-20px);
 }
-.page2 p{
-    
-    color:white;
+.quote{
+    box-sizing: border-box;
+    padding: 3%;
+}
+.quotes{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;   
+}
+.quote img{
+    margin-top: 10%;
+    width: auto;
+    height:150px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    float: right;
+}
+.quote p{
+    color:rgb(191, 214, 156);
+    text-transform: uppercase;
+    /* font-family: Dancing Script; */
+    letter-spacing: 3px;
 }
