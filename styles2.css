@@ -55,17 +55,17 @@ li{
     background-color: rgb(241, 187, 187);
 }
 .page2{
-    height: 50vh;
+    height: 80vh;
     width: auto;
     background-color: black;
 }
-.page2 p{       
+.intro{       
     margin-top:50px;
     font-size: larger;
     box-sizing: border-box;
     display: flex; 
     justify-content: space-evenly;
-    background-image: linear-gradient(45deg,blue,orange);
+    background-image: linear-gradient(white,black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     float:center;
@@ -79,6 +79,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    
 }
 .logos img{
     height:50px ;
@@ -88,4 +89,8 @@ li{
 }
 .logos img:hover{
     transform: translateY(-20px);
+}
+.page2 p{
+    
+    color:white;
 }
